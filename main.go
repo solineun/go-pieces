@@ -7,10 +7,24 @@ package main
 import (
 	"fmt"
 	book "mymodule/golang-book/idioms/ch7"
+	"mymodule/yy"
+	"time"
 )
 
 func main() {
 	
+}
+
+func yySet() {
+	set := yy.NewSet[string]()
+	set.Add("a", "b", "b")
+	fmt.Println(set.Contains("a"))
+}
+
+func yyClient() {
+	t := yy.Timeout(time.Millisecond * 2)
+	c := yy.NewClient("dasd", 31, t)
+	fmt.Println(c.String())
 }
 
 func runCounter() {
@@ -24,6 +38,7 @@ func runTree() {
 	var it *book.IntTree
 	it = it.Insert(10)
 	fmt.Println(it)
+
 	it = it.Insert(20)
 	fmt.Println(it)
 	it = it.Insert(5)
