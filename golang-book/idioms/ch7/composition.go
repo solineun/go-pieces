@@ -1,4 +1,4 @@
-package ch7
+package main
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ type Employee struct {
 	ID string
 }
 
-func (e Employee) Description() string {
+func (e Employee) String() string {
 	return fmt.Sprintf("%s (%s)", e.String(), e.ID)
 }
 

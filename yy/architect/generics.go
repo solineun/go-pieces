@@ -1,4 +1,4 @@
-package yy
+package main
 
 func Contains [T comparable] (needle T, haystack []T) bool {
 	for _, value := range haystack {
