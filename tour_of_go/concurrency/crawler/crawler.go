@@ -5,11 +5,9 @@ import (
 	"sync"
 )
 
-var mu sync.Mutex
-
 func Crawl(url string, depth int, wg *sync.WaitGroup) {
 	defer wg.Done()
-	
+
 	if depth <= 0 {
 		return
 	}
