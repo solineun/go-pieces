@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"mymodule/golang-book/idioms/ch7/di/logic"
+	"mymodule/golang_book/idioms/ch7/di/logic"
 	"net/http"
 )
 
