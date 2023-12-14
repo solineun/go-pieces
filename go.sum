@@ -1,5 +1,11 @@
+github.com/absoludity/goforms v0.0.0-20150922005427-081aef0845bc h1:iblt2dNM1Eze4Ykx0+Az71V+joFZaOxGvXg4RZbe1P8=
+github.com/absoludity/goforms v0.0.0-20150922005427-081aef0845bc/go.mod h1:Q1pEq8PQZU+xRgKsAV75HrWdor1wpShy9x7ShAdsq1E=
+github.com/beanstalkd/go-beanstalk v0.2.0 h1:6UOJugnu47uNB2jJO/lxyDgeD1Yds7owYi1USELqexA=
+github.com/beanstalkd/go-beanstalk v0.2.0/go.mod h1:/G8YTyChOtpOArwLTQPY1CHB+i212+av35bkPXXj56Y=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/goji/param v0.0.0-20160927210335-d7f49fd7d1ed h1:4ZXAJ/IvcryiUPDddal4P7mu6V0+PoBe+2tKG6TNQtc=
+github.com/goji/param v0.0.0-20160927210335-d7f49fd7d1ed/go.mod h1:GZJblUu7ACjguvQUK2un6nQBlnZk7H1MzXZdfrFUd8Q=
 github.com/golang-module/carbon/v2 v2.2.6 h1:4nHkIx7A7d+aoRDAGLwxZEJWAAZpmH5Bm/pVUl58FXI=
 github.com/golang-module/carbon/v2 v2.2.6/go.mod h1:XDALX7KgqmHk95xyLeaqX9/LJGbfLATyruTziq68SZ8=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
